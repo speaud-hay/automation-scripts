@@ -1,3 +1,3 @@
 # Automation Scripts
-
-``` $ sh esav1.sh  ```
+## For job mapping
+Run the following command ``` $ sh esav1.sh  ```
