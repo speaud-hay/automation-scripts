@@ -1,5 +1,5 @@
 # Automation Scripts
-## esav2.sh - Setting up a local instance from a repo
+## esav2.sh - Setting up a local environment and working instance from a repo
 Run the following command ( Mac ``` $ sh esav2.sh  ``` ) (Windows ``` > esav2.sh ```) then follow the prompt.
 
 v2.0 upgrades
