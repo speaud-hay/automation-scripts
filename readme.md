@@ -6,4 +6,4 @@ Run the following command ( Mac ``` $ sh esav2.sh  ``` ) (Windows ``` > esav2.sh
 > check user settings for global dependencies then update/install accordingly
 > started windows os global automation (v2.5)
 
-## deploy
+## deploy - ...
