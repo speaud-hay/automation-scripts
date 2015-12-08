@@ -1,0 +1,15 @@
+--- from P.Huff
+
+Activate admin
+Grunt setup:test
+./releases/deploy_test.sh  0.2.5 test
+
+Hay-101a 
+Grunt package:test
+./releases/deploy.sh 0.9.00 test
+
+Job Mapping
+Grunt
+Then just copy the war file to the server manually
+
+All sh files are in the release folder and everything is using grunt
