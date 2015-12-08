@@ -13,3 +13,12 @@ Grunt
 Then just copy the war file to the server manually
 
 All sh files are in the release folder and everything is using grunt
+
+--- from S.Manchiganti
+
+switch to master
+git pull
+grunt
+grunt setup:test
+./releases/deploy_test.sh 0.2.5 test
+
