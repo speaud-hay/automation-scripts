@@ -4,7 +4,7 @@ user select github repo
 --\_ssh... (is based on selected repo?)
 ----\_mkdir <YYYYMMDD-USER> backup files for current root
 ----\_move dir to where?
-----\_clean pseudo root and pull in selected repo (gitignore?)
+----\_clean pseudo root and pull in selected repo (gitignore? greg SR?)
 ----\_log event/status/etc and notify people via email [foreach...(heredoc | echo 'Message body goes here' | mail -s 'subject line goes here' <array of people's email to notify>)]
 ----\_close connection / exit
 
