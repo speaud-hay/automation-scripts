@@ -22,3 +22,16 @@ grunt
 grunt setup:test
 ./releases/deploy_test.sh 0.2.5 test
 
+--- P.Huff response to S.Manchiganti pre grunt initalization steps
+
+[‎12/‎8/‎2015 3:30 PM] Priscilla Huff: 
+he just added that to make sure the person knew to get the latest code from github
+i don’t think thats necessary in any scripts we write, unless were editing the watch
+the automation your working on is just for deployments right?
+[‎12/‎8/‎2015 3:32 PM] Priscilla Huff: 
+if so, we don’t need to include any merging/pulling stuff
+
+
+
+
+
