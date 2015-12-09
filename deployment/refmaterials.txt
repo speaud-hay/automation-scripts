@@ -33,6 +33,17 @@ the automation your working on is just for deployments right?
 if so, we don’t need to include any merging/pulling stuff
 
 
+------
+
+Need:
+
+server credentials with proper permissions
+
+--- Job Mapping
+--- Activate Admin
+--- Hay-101a
+
+
 
 
 
