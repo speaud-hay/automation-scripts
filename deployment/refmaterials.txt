@@ -37,7 +37,11 @@ if so, we don’t need to include any merging/pulling stuff
 
 Need:
 
-server credentials with proper permissions
+server credentials with proper permissions per instance
+
+Questions:
+
+are we sticking with powershell?
 
 --- Job Mapping
 --- Activate Admin
