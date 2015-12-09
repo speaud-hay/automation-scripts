@@ -11,6 +11,7 @@ Grunt package:test
 Job Mapping
 Grunt
 Then just copy the war file to the server manually
+\_: there are more steps after that, what are they?
 
 All sh files are in the release folder and everything is using grunt
 
