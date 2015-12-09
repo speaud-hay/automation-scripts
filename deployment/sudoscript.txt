@@ -1,0 +1,26 @@
+user select github repo
+\_if...fi (get user info and special considerations per repo if exist)
+-\_prep github repo (add option to merge branches)
+--\_ssh... (is based on selected repo?)
+----\_mkdir <YYYYMMDD-USER> backup files for current root
+----\_move dir to where?
+----\_clean root and pull in selected repo (gitignore?)
+----\_log event/status/etc and notify people via email [foreach...(heredoc | echo 'Message body goes here' | mail -s 'subject line goes here' <array of people's email to notify>)]
+----\_close connection / exit
+
+\/
+
+objects
+\_user
+\_repo
+\_server
+\_notification
+\_error handler
+
+\/
+
+array_name=(value1 ... valuen)
+
+for k in "${!a[@]}"; do
+  echo "$k -> ${a[$k]}"
+done	
