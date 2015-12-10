@@ -18,12 +18,25 @@ sii="\e[1;32;44m --> \033[0m"
 
 printf "$sii Enter the name of the repo: "
 read repo
-printf $repo
+
+if [[ $repo =~ ^(https\:\/\/github\.com\/[HayGroup]+\/)([A-Za-z]*|[0-9]*)(\.git) ]];
+	then
+    repoName=${BASH_REMATCH[2]}
+fi
+
+printf "$sii The repo you want to deploy is $repoName. Is this correct (y/n)? "
+read confirmRepo
+
+###
 
 
-array=( $(echo $repo | grep -o '^https\:\/\/github\.com\/HayGroup\/[\w|\W]+\.git$') )
-echo ${array[@]}
 
 
-printf "..."
-read kj
+
+
+
+
+
+
+
+
