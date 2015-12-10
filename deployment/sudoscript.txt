@@ -33,3 +33,18 @@ array_name=(value1 ... valuen)
 for k in "${!a[@]}"; do
   echo "$k -> ${a[$k]}"
 done	
+
+
+#!/usr/lib/oobash.sh
+
+# Import Car class
+`import Car`
+
+# Create an "object"
+new Car as car
+
+# Set a variable
+car.speed 100
+
+# Call a function
+car.drive
