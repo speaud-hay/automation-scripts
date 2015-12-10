@@ -3,8 +3,8 @@ user select github repo
 -\_prep github repo (add option to merge branches)
 --\_ssh... (is based on selected repo?)
 ----\_mkdir <YYYYMMDD-USER> backup files for current root
-----\_move dir to where?
-----\_clean pseudo root and pull in selected repo (gitignore? greg SR?)
+----\_then move dir to where?
+----\_clean root and pull in selected repo (gitignore?)
 ----\_log event/status/etc and notify people via email [foreach...(heredoc | echo 'Message body goes here' | mail -s 'subject line goes here' <array of people's email to notify>)]
 ----\_close connection / exit
 
@@ -13,10 +13,18 @@ user select github repo
 objects
 \_user
 \_repo
-\_pseduo root (the current working dir)
 \_server
 \_notification
 \_error handler
+
+\/ user input
+
+printf '$t Enter the name of the repo'
+read repo
+
+stripRepo=( $(echo $repo | grep -o '^https\:\/\/github\.com\/HayGroup\/[\w|\W]+\.git$') )
+
+# the repo name =  ${stripRepo[0]}
 
 \/
 
