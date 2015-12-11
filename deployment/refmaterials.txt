@@ -41,6 +41,8 @@ ssh credentials with proper permissions per instance
 
 Questions:
 
+reversion option? to roll back to last "working" instance?
+
 are we sticking with powershell?
 \_A: no
 
