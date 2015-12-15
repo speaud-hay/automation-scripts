@@ -23,9 +23,10 @@ sii="\e[1;32;44m --> \033[0m"
 		
 		DEPLOY_USER=$(whoami)
 
-	# date
+	# dates
 	
-		DEPLOY_DATE=date
+		DEPLOY_DATE=date #for emails
+		BACKUP_DIRNAME=date +"%Y%m%d_%T_$DEPLOY_USER
 
 	# get the repo info
 	
@@ -49,6 +50,8 @@ sii="\e[1;32;44m --> \033[0m"
 	# connect to server
 
 	# create backup of current working instance
+	
+	
 
 
 ### deploy

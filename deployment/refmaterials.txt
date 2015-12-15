@@ -37,7 +37,7 @@ if so, we don’t need to include any merging/pulling stuff
 
 Need:
 
-ssh credentials with proper permissions per instance
+
 
 Questions:
 
@@ -45,6 +45,7 @@ are we sticking with powershell?
 \_A: no
 
 MTA exist on server? if so, what/which?
+\_smpt 
 
 where will we store log? htaccess type?
 
